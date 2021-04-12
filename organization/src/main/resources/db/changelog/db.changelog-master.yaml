@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: tourism
+      author: Harshitha
+      changes:
+        - sqlFile:
+            endDelimiter: \n/\s*\n|\n/\s*$
+            path: tourism.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
