@@ -17,4 +17,7 @@ public class OrganizationController {
        return organizationService.createTourism(tourismModel);
     }
 
+    public void getTourism(){
+    }
+
 }
