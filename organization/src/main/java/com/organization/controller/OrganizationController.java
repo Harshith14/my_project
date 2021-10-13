@@ -18,6 +18,7 @@ public class OrganizationController {
     }
 
     public void getTourism(){
+
     }
 
 }
